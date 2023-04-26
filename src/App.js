@@ -1,12 +1,16 @@
+import React from "react";
 import './App.css';
-import FetchApi from "./components/FetchApi/FetchApi";
-//import Github from "./components/Github/Github";
+import logo from "./components/logo/logo.jpg";
+import Profile from "./components/Profile/Profile";
 
 
 function App() {
   return (
     <div className="App">
-      <FetchApi />
+      <header className= "App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </ header>
+      <Profile />
     </div>
   );
 }
