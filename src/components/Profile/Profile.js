@@ -30,9 +30,9 @@ const Profile = () => {
     
     return(
         <>
-        <div style={{padding: 20}}>
+        <div style={{padding: 20}} className="main">
             <div className="ui search">
-                <div className="ui icon input">
+                <div className="ui icon input" id="search">
                     <i className="search icon"></i>
                     <input 
                         className="prompt"
@@ -43,7 +43,8 @@ const Profile = () => {
                     />
                 </div>
                 <button 
-                    className="ui primary button"  
+                    className="ui primary button" 
+                    id="button" 
                     type="submit" 
                     onClick={submitHandler}
                 >

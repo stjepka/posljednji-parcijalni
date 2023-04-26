@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.App-header{
+    background-color: rgb(34, 34, 34);
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+#button{
+    margin-left: 15px;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.329);
+}
+
+#button:hover {
+    background-color: #131972cc
+}
+
+#button:active {
+  background-color: #131972cc;
+  box-shadow: 2px 2px #666;
+  transform: translateY(2px);
+}
+
+.App-header{
+    margin-bottom: 30px;
+}
+
+.App-logo{
+    height: 40px;
+    margin-top: 5px;
+}
+
+.App-logo-cat{
+    height: 40px;
+}
+
+#search{
+    margin-left: 30px;
+}
+
+.footer{
+    position: static;
+}
+
+hr{
+    border-color: rgba(155, 155, 155, 0.795);
+    border-style: groove;
+}
+
+.footer-paragraph{
+    text-align: center;
+    color: #5a5a5a;
+    text-shadow: 1px 1px rgb(190, 190, 190);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
